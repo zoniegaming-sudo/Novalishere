@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Story 5 💖</title>
+  <style>
+    /* Body and background */
+    body {
+      background: linear-gradient(to bottom, #ffe6f0, #ffb6c1); /* romantic pink gradient */
+      font-family: 'Palatino Linotype', 'Georgia', serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    /* Card container */
+    .card {
+      background: #fff0f5;
+      border: 4px solid #ff69b4; /* solid pink border */
+      border-radius: 35px;
+      padding: 40px;
+      max-width: 700px;
+      margin: 0 auto;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      animation: fadeIn 1.5s ease-in-out;
+      position: relative;
+    }
+
+    /* Heart accents (top corners) */
+    .card::before, .card::after {
+      content: "❤️";
+      font-size: 24px;
+      position: absolute;
+      top: -15px;
+    }
+    .card::before { left: -15px; }
+    .card::after { right: -15px; }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Paragraph style */
+    p {
+      font-size: 20px;
+      color: #ff1493;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    /* GIF styling */
+    .gif {
+      width: 200px;
+      border-radius: 20px;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1 style="color:#ff4d6d;">STORY 4 💖</h1>
+
+    <p>
+       Mere cutieee aadmiii, every heartbeat reminds me of your love. 
+      Your gentle words, warm hugs, and tender smile make my world brighter. 
+      I treasure the romantic moments between us alot.Like i am alot comfortable with u in such a short time 
+      You are my heart’s desire, my eternal happiness, and my sweetest love. You are my safe zone 💕
+    </p>
+
+    <!-- GIF Animation -->
+    <img src="story4.gif" alt="Romantic GIF" class="gif">
+
+  </div>
+
+</body>
+</html>

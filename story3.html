@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Story 3 💖</title>
+  <style>
+    /* Body and background */
+    body {
+      background: linear-gradient(to bottom, #ffecd2, #fcb69f); /* soft sunset gradient */
+      font-family: 'Georgia', serif;
+      text-align: center;
+      padding: 50px;
+      overflow-x: hidden;
+    }
+
+    /* Card container */
+    .card {
+      background: #fffaf0;
+      border: 4px double #ff69b4; /* double border for creative effect */
+      border-radius: 30px;
+      padding: 30px;
+      max-width: 800px;
+      margin: 0 auto;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      display: flex; /* side by side layout */
+      align-items: center;
+      justify-content: space-between;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Text styling */
+    .card p {
+      font-size: 20px;
+      color: #ff1493;
+      line-height: 1.6;
+      text-align: left;
+      margin-right: 20px;
+    }
+
+    /* GIF styling */
+    .gif {
+      width: 180px;
+      border-radius: 20px;
+      flex-shrink: 0;
+    }
+
+    /* Responsive for smaller screens */
+    @media screen and (max-width: 700px) {
+      .card {
+        flex-direction: column;
+        text-align: center;
+      }
+      .card p {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <!-- Text on left -->
+    <p>
+      Mere pyareee MIAN JI, your presence fills my life with endless warmth and joy. 
+      Every laugh, every shared secret, and every quiet moment reminds me how lucky I am to have you. 
+      You are my heart, my safe haven, and my eternal happiness. 💖
+    </p>
+
+    <!-- GIF on right -->
+    <img src="story3.gif" alt="Cute Animation" class="gif">
+  </div>
+
+</body>
+</html>
